@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1 class="main-heading">People Counter</h1>
+
+        <button class="buttons" onclick="countAdult()"><span id="adult-result">Adults: 0</span></button>
+        <button class="buttons" onclick="countChild()"><span id="child-result">Children: 0</span></button>
+
+        <p id="total-people">Total: 0</p>
+
+        <button id="clear-btn" onclick="clearAll()">Clear</button>
+    </div>
+    
+    <script  src="main.js"></script>
+</body>
+</html>
